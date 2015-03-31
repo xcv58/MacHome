@@ -4,3 +4,6 @@
 [submodule "vim"]
 	path = vim
 	url = git@github.com:xcv58/Vim_config.git
+[submodule "zprezto"]
+	path = zprezto
+	url = git@github.com:xcv58/prezto.git
