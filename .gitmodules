@@ -1,0 +1,6 @@
+[submodule "emacs.d"]
+	path = emacs.d
+	url = git@github.com:xcv58/Emacs_config.git
+[submodule "vim"]
+	path = vim
+	url = git@github.com:xcv58/Vim_config.git
