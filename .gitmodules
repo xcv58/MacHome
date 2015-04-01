@@ -16,3 +16,6 @@
 [submodule "OS-161-Scripts"]
 	path = OS-161-Scripts
 	url = git@github.com:xcv58/OS-161-Scripts.git
+[submodule "Alfred.alfredpreferences"]
+	path = Alfred.alfredpreferences
+	url = git@github.com:xcv58/Alfred.alfredpreferences.git
