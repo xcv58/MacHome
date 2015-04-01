@@ -13,3 +13,6 @@
 [submodule "rc_config_files"]
 	path = rc_config_files
 	url = git@github.com:xcv58/rc_config_files.git
+[submodule "OS-161-Scripts"]
+	path = OS-161-Scripts
+	url = git@github.com:xcv58/OS-161-Scripts.git
