@@ -10,3 +10,6 @@
 [submodule "Shell_script"]
 	path = Shell_script
 	url = git@github.com:xcv58/Shell_script.git
+[submodule "rc_config_files"]
+	path = rc_config_files
+	url = git@github.com:xcv58/rc_config_files.git
