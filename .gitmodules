@@ -7,3 +7,6 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git@github.com:xcv58/prezto.git
+[submodule "Shell_script"]
+	path = Shell_script
+	url = git@github.com:xcv58/Shell_script.git
