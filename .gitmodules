@@ -31,3 +31,6 @@
 [submodule "iTerm2"]
 	path = iTerm2
 	url = git@github.com:xcv58/iTerm2.git
+[submodule "Settings"]
+	path = Settings
+	url = git@github.com:xcv58/Settings.git
