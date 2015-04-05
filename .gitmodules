@@ -28,3 +28,6 @@
 [submodule "Karabiner"]
 	path = Karabiner
 	url = git@github.com:xcv58/Karabiner.git
+[submodule "iTerm2"]
+	path = iTerm2
+	url = git@github.com:xcv58/iTerm2.git
