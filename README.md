@@ -1,7 +1,7 @@
 MacHome
 ===
 
-For personal use only!
+Personal use only!
 
 ```
 zsh
