@@ -37,3 +37,6 @@
 [submodule "Hammerspoon-xcv58"]
 	path = Hammerspoon-xcv58
 	url = git@github.com:xcv58/Hammerspoon-xcv58.git
+[submodule "Sublime_Settings"]
+	path = Sublime_Settings
+	url = git@github.com:xcv58/Sublime_Settings.git
