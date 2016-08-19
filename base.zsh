@@ -25,12 +25,13 @@ link_dir() {
             echo "${TARGET} already installed!"
             exit
         else
-            echo "mv ${TARGET} ${TARGET}_BACK_`date +%s`"
-            eval "mv ${TARGET} ${TARGET}_BACK_`date +%s`"
+            back_old_command="mv \"${TARGET}\" \"${TARGET}_BACK_`date +%s`\""
+            echo "${back_old_command}"
+            eval "${back_old_command}"
         fi
     fi
 
-    link_command="ln -sf ${SOURCE} ${TARGET}"
+    link_command="ln -sf \"${SOURCE}\" \"${TARGET}\""
 
     echo ${link_command}
     eval ${link_command}
