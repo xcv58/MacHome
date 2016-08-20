@@ -1,2 +1,2 @@
 #!/bin/zsh
-find . -name "install.zsh" -mindepth 2 -maxdepth 2 | xargs -n 1 zsh
+find . -mindepth 2 -maxdepth 2 -name "install.zsh" | xargs -n 1 zsh
