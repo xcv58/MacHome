@@ -40,3 +40,6 @@
 [submodule "Sublime_Settings"]
 	path = Sublime_Settings
 	url = git@github.com:xcv58/Sublime_Settings.git
+[submodule "ssh"]
+	path = ssh
+	url = git@github.com:xcv58/.ssh.git
