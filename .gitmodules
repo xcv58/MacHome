@@ -24,7 +24,7 @@
 	url = git@github.com:xcv58/Rime.git
 [submodule "tmux.conf"]
 	path = tmux.conf
-	url = git@github.com:xcv58/tmux.conf.git
+	url = git@github.com:xcv58/tmux_conf.git
 [submodule "Karabiner"]
 	path = Karabiner
 	url = git@github.com:xcv58/Karabiner.git
