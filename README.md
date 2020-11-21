@@ -4,32 +4,22 @@ Personal use only!
 
 ## Instructions
 
-### Initial install
+### Prerequisites
 
-Please make sure you have `git` install, otherwise, you can type `git` and follow the instruction to install it.
+- `git`, Please make sure you have `git` install, otherwise, you can type `git` and follow the instruction to install it.
+- [GitHub SSH key setup](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh), please make sure you have SSH key setup for GitHub.
 
-```sh
-zsh -f
-mkdir ~/MacHome; cd ~/MacHome
-git clone https://github.com/xcv58/prezto.git zprezto
-zsh
-init_brew
-```
-
-Please do the following setup after you setup SSH key for GitHub.
-
-### Install with GitHub/SSH key setup
+### Install
 
 ```sh
-zsh -f
 git clone --recursive git@github.com:xcv58/MacHome.git
-cd MacHome
-python install.py
+cd MacHome && python install.py
 ```
 
 Install dependencies
 
 ```sh
+zsh
 init_brew
 ```
 
