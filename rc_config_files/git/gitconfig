@@ -1,0 +1,49 @@
+[user]
+	name = xcv58
+	email = i@xcv58.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGQxu279V0nj2aH67YOw0yIw/cT6FQ3+yJD2wG53GKtl
+[gpg]
+	format = ssh
+[push]
+	default = matching
+[credential]
+	helper = cache
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]
+	excludesfile = ~/.gitignore
+	precomposeUnicode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = true
+[diff]
+	renames = true
+  tool = Kaleidoscope
+[http]
+	postBuffer = 524288000
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = Kaleidoscope
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true
+[pull]
+	ff = only
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -10,30 +10,18 @@
 [submodule "Shell_script"]
 	path = Shell_script
 	url = git@github.com:xcv58/Shell_script.git
-[submodule "rc_config_files"]
-	path = rc_config_files
-	url = git@github.com:xcv58/rc_config_files.git
-[submodule "OS-161-Scripts"]
-	path = OS-161-Scripts
-	url = git@github.com:xcv58/OS-161-Scripts.git
 [submodule "Alfred.alfredpreferences"]
 	path = Alfred.alfredpreferences
 	url = git@github.com:xcv58/Alfred.alfredpreferences.git
 [submodule "tmux.conf"]
 	path = tmux.conf
 	url = git@github.com:xcv58/tmux_conf.git
-[submodule "iTerm2"]
-	path = iTerm2
-	url = git@github.com:xcv58/iTerm2.git
 [submodule "Settings"]
 	path = Settings
 	url = git@github.com:xcv58/Settings.git
 [submodule "Hammerspoon-xcv58"]
 	path = Hammerspoon-xcv58
 	url = git@github.com:xcv58/Hammerspoon-xcv58.git
-[submodule "Sublime_Settings"]
-	path = Sublime_Settings
-	url = git@github.com:xcv58/Sublime_Settings.git
 [submodule "ssh"]
 	path = ssh
 	url = git@github.com:xcv58/.ssh.git

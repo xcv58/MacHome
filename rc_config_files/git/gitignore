@@ -1,0 +1,22 @@
+# for latex
+*.swp
+*.aux
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+_minted-paper/
+
+# for Mac
+.DS_Store
+
+# for Emacs backup files
+\#*\#
+.\#*
+
+.dropbox
+
+coverage/
+.claude/
+.claw/
